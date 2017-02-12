@@ -27,4 +27,4 @@ WORKDIR app
 RUN mvn clean package
 
 # Start Tomcat
-CMD ["/usr/bin/java", "-jar", "target/springswagger-0.1.jar"]
+CMD ["/usr/bin/java", "-jar", "target/OKOK-0.1.jar"]
