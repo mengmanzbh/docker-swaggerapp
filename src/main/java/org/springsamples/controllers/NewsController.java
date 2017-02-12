@@ -52,7 +52,7 @@ class NewsController {
 	}
 
 	NewsController() {
-		for (long i = 0; i < 1; i++)
+		for (long i = 0; i < 10; i++)
 			this.entries.put(i, new NewsEntry(i, "Title #" + i));
 	}
 
